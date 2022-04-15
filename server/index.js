@@ -9,11 +9,11 @@ const todosRoute = require("./routes/todo");
 
 // middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors("*"));
 
 // routes
 app.use("/api/user", userRoute);
-app.use("/apI/todos", todosRoute);
+app.use("/api/todos", todosRoute);
 
 // db
 const connectDB = async () => {

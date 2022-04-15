@@ -30,3 +30,8 @@
   text-shadow: 0px 2px 5px #000;
   margin-bottom: 0.4rem;
 }
+
+.taskCompleteText {
+  font-size: 0.7rem;
+  font-weight: 800;
+}
