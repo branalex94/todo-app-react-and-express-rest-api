@@ -1,0 +1,13 @@
+.todoListContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  overflow-y: scroll;
+  padding-top: 1.2rem;
+}
+
+.noTodos {
+  padding-top: 2rem;
+}

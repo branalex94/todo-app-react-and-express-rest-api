@@ -1,0 +1,32 @@
+.todoItem {
+  padding: 1.5rem 1rem;
+  /* background: #ddd9; */
+}
+
+.todoOptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todoEdit,
+.todoDelete {
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.todoEdit {
+  color: #6ac375;
+}
+
+.todoDelete {
+  color: #e14d4d;
+}
+
+.todoName {
+  color: #fff;
+  text-shadow: 0px 2px 5px #000;
+  margin-bottom: 0.4rem;
+}

@@ -1,0 +1,50 @@
+.mainWrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.appWrapper {
+  height: 70vh;
+  text-align: center;
+  background: #0bf;
+  margin: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 5px 3px 1px #555;
+  flex-basis: 100%;
+  transition: all 0.3s ease;
+}
+
+.appTitleContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.appTitle {
+  color: #a1e9d7;
+  text-shadow: 0px 3px 5px #555;
+}
+
+.appAddTodo {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #a1e9d7;
+  height: auto;
+  width: 2.5rem;
+  margin-top: 0.3rem;
+  background-color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  box-shadow: 0px 2px 5px #444343;
+}
+
+.blurBackground {
+  filter: blur(2px);
+}
